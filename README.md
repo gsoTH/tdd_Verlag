@@ -3,8 +3,10 @@ Ein bekannter Kölner Verlag plant die Neugestaltung von einigen hausintern genu
 
 Um die verschiedenen Bewerber auf ihre Eignung zu testen, verteilt der Verlag einige UserStories, die typische Anwendungsfälle beschreiben.
 
+**Bearbeiten Sie die folgenden Aufträge entsprechend dem TDD-Paradigma:**
+
 ## Auf Basis von UnitTests entwickeln
-Implementieren Sie entsprechende Lösungen um die nachfolgende UserStories abzubilden! (Testfälle sind schon in der Klasse BuchTests.cs vorhanden)
+Für die erste UserStory wurden bereits Testfälle entworfen. 
 
 
 1. Als Verlagsmitarbeiter möchte ich die Bücher unseres Verlages speichern können.
@@ -14,7 +16,7 @@ Implementieren Sie entsprechende Lösungen um die nachfolgende UserStories abzub
     - Für den Autor sollen nur sinnvolle Eingaben möglich sein.
 
 ## UnitTests entwerfern
-Entwerfen Sie – dem TDD-Paradigma folgendend - geeignete Testmethodeum die nachfolgenden UserStories abzubilden!
+Entwerfen Sie – dem TDD-Paradigma folgendend - geeignete Testmethoden, um die nachfolgenden UserStories abzubilden!
 
 2. Als Verlagsmitarbeiter möchte ich die Bücher um eine ISBN-Nummer ergänzen können.
     - Für alle Bücher soll eine ISBN-13 eingegeben werden können. Z.B.: 978-3770436163
