@@ -28,12 +28,13 @@ namespace VerlagTests
 		public void Buch_KeineAuflageEntsprichtErsterAuflage()
 		{
 			//Arrange
+			int auflageSoll = 1;
 
 			//Act 
-			Buch b = new Buch("autor", "titel");
-
+			Buch buchOhneAuflage = new Buch("autor", "titel");
+				
 			//Assert
-			Assert.AreEqual(1, b.Auflage);
+			Assert.AreEqual(auflageSoll, buchOhneAuflage.Auflage);
 		}
 
 		[TestMethod]
@@ -96,7 +97,7 @@ namespace VerlagTests
 		[DataRow("")]
 		[DataRow("#")]
 		[DataRow(";")]
-		[DataRow("ง")]
+		[DataRow("ยง")]
 		[DataRow("%")]
 		[DataRow(null)]
 		[ExpectedException(typeof(ArgumentException))]
